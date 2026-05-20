@@ -1,0 +1,29 @@
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / Vite
+node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# Local-only legacy inputs and exports
+.local/
+legacy/
+*.csv
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig.*.json

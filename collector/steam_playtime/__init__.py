@@ -1,0 +1,2 @@
+"""Steam playtime collector package."""
+
